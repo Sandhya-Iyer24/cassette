@@ -1,6 +1,5 @@
 // sandhya iyer, project 5
 // advanced creative coding
-// taylor swift's 1989
 
 // initialize all variables
 let cassetteImg, reelImg, playImg, rewindImg, fwdImg, stopImg;
@@ -64,18 +63,18 @@ let button;
 let filter;
 
 function preload() {
-  cassetteImg = loadImage("assets/cassette.png");
-  lofiGirlImg = loadImage("assets/lofigirl.gif");
-  reelImg = loadImage("assets/wheelorange.png");
-  playImg = loadImage("assets/playbutton.png");
-  rewindImg = loadImage("assets/rewindbutton.png");
-  fwdImg = loadImage("assets/forwardbutton.png");
-  stopImg = loadImage("assets/stopbutton.png");
-  starImg = loadImage("assets/star.png");
-  font = loadFont("assets/MondayFeelings.ttf"); // preload visual assets
+  cassetteImg = loadImage("Assets/cassette.png");
+  lofiGirlImg = loadImage("Assets/lofigirl.gif");
+  reelImg = loadImage("Assets/wheelorange.png");
+  playImg = loadImage("Assets/playbutton.png");
+  rewindImg = loadImage("Assets/rewindbutton.png");
+  fwdImg = loadImage("Assets/forwardbutton.png");
+  stopImg = loadImage("Assets/stopbutton.png");
+  starImg = loadImage("Assets/star.png");
+  font = loadFont("Assets/MondayFeelings.ttf"); // preload visual Assets
 
   let index = floor(random(songs.length));
-  songA = loadSound("assets/" + songs[index] + ".mp3");
+  songA = loadSound("Assets/" + songs[index] + ".mp3");
   songNameA = songs[index]; // randomizes song choice from array
   artistA = artists[index];
 
@@ -85,13 +84,13 @@ function preload() {
   if(index2 == index) {
     index2 = (index + 1) % songs.length; // ensure different song
   }
-  songB = loadSound("assets/" + songs[index2] + ".mp3");
+  songB = loadSound("Assets/" + songs[index2] + ".mp3");
   songNameB = songs[index2];
   artistB = artists[index2];
 
 
-  fastForwardSound = loadSound("assets/fastforward.mp3"); // preload sound asset
-  hissSound = loadSound("assets/hiss.mp3");
+  fastForwardSound = loadSound("Assets/fastforward.mp3"); // preload sound asset
+  hissSound = loadSound("Assets/hiss.mp3");
 
   song = songA; // assign song and songName to current state (songA)
   songName = songNameA;
