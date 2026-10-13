@@ -24,12 +24,18 @@ let songs = [
   "All You Had To Do Was Stay",
   "After Midnight",
   "Almost (Sweet Music)",
+  "Souper Trouper",
+  "Let it Be",
+  "Rocket Man"
   
 ];
 let artists = [
   "Taylor Swift",
   "Chappell Roan",
   "Hozier",
+  "ABBA",
+  "The Beatles",
+  "Elton John"
 
 ]
 let fastForwarding = false;
