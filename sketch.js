@@ -21,39 +21,15 @@ let artistB;
 let lofiButton, hissButton, wobbleButton;
 let buttons = [];
 let songs = [
-  "Welcome To New York",
   "All You Had To Do Was Stay",
-  "This Love",
-  "Diet Mountain Dew",
-  "Falling Behind",
-  "Let it Be",
-  "Super Trouper",
-  "Test Drive",
-  "Ban Ja Rani",
-  "August",
   "After Midnight",
-  "Pink Pony Club",
   "Almost (Sweet Music)",
-  "Rocket Man",
-  "Everybody Wants to Rule the World",
   
 ];
 let artists = [
   "Taylor Swift",
-  "Taylor Swift",
-  "Taylor Swift",
-  "Lana Del Ray",
-  "Laufey",
-  "The Beatles",
-  "ABBA",
-  "John Powell",
-  "Guru Randhawa",
-  "Taylor Swift",
-  "Chappell Roan",
   "Chappell Roan",
   "Hozier",
-  "Elton John",
-  "Tears for Fears",
 
 ]
 let fastForwarding = false;
